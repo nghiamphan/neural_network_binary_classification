@@ -21,8 +21,8 @@ def intro():
         """
         This is a simple neural network for binary classification I wrote from scatch. The network consists of:
         - an input layer
-        - zero or one hidden layer of customizable number of nodes
-        - one output layer
+        - zero or one hidden layer of customizable number of nodes; activation function: leaky RELU.
+        - one output layer, activation: binary cross entrophy.
 
         Input vector: list of numbers
 
